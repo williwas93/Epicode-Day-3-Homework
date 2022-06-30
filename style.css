@@ -1,0 +1,187 @@
+/* Amazon CSS by William James Rowe for educational purposes only. */
+/*           Menu         */
+/*      0.0 Imports       */
+/*      1.0 General       */
+/*      1.1 Header        */
+/*      2.0 Orange B      */
+/*      3.0 Banner Image  */
+/*      4.0 Banner 3      */
+/*      5.0 Footer        */
+
+/* 0.0 Imports      */
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+/* 1.0 General */
+   body {
+   margin: 0;
+   background-color: #eaeded;
+   font-family: Arial, Helvetica, sans-serif;
+   }
+
+/* 1.1 Header  */
+   .headertop {
+    background-color: #222f3e; 
+    max-width: 100%;
+    display: block;
+
+}
+    .headerimage {
+    padding-left: 120px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    
+    }
+     .headerU   {
+    background-color: #354758; 
+    max-width: 100%;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    display: block;   
+     }
+    .headerUt   {
+    padding-right: 10px;
+    padding-left: 120px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: "PT Sans", sans-serif; 
+    color: white;
+    font-size: small;
+    }
+
+/*  2.0  Orange B   */
+    .orangebar {
+    margin-top: 20px;
+    margin-left: 120px;
+    margin-right: 120px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: orangered;
+    }
+    .orangebart {
+     font-family: "PT Sans", sans-serif;  
+     font-size: medium;
+     color: antiquewhite;
+     margin-left: 500px;
+     
+     
+     
+    }
+
+/*   3.0  Banner Image   */    
+    .banner {
+    margin: auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 120px;
+    margin-right: 120px;
+    padding: 4%;
+    font-size: 36px;
+    font-weight: bold;
+    color: white;
+    background-image: url("assets/bg-image.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    justify-items: center;
+    text-align: center
+}
+
+   .banner2 {
+    font-size: 20px;
+}
+
+/*     4.0 Find Gift     */
+    .mainbg {
+    background-color: whitesmoke; 
+    margin-left: 120px;   
+    margin-right: 120px;
+    border-radius: 5px
+    }
+    .mainbg2 {
+    padding-left: 10px;
+    font-family: "PT Sans", sans-serif;
+
+    }
+    .mainbg3 {
+    padding-left: 10px;
+    font-family: "PT Sans", sans-serif;
+    font-size: 10px;
+    color: rgb(18, 81, 133)
+    }
+    .img1 {
+    opacity: 1.0;
+    filter: alpha(opacity=0);
+    margin-left: 8px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 2px -2px rgb(0 0 0 / 10%);
+
+    }
+    .img1:hover {
+        opacity: 0.7;
+        filter: alpha(opacity=20);
+        margin-left: 8px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        border-radius: 10px;
+        box-shadow: 0px 2px 2px -2px rgb(0 0 0 / 10%);
+    
+        }
+
+/*     4.0 Banner 3     */
+    .banner3 {
+    opacity: 1.0;
+    filter: alpha(opacity=0);
+    margin-top: 10px;
+    margin-left: 60px;
+    margin-right: 180px;
+    max-width: 100%;
+    border-radius: 10px;
+    }
+    .banner3:hover {
+        opacity: 0.8;
+        filter: alpha(opacity=20);
+        margin-top: 10px;
+        margin-left: 60px;
+        margin-right: 180px;
+        max-width: 100%;
+        border-radius: 10px;
+        }
+    .underban {
+    margin-left: 250px;
+    font-family: "PT Sans", sans-serif;
+    font-size: small;
+    }
+    .underban2 {
+    font-size: x-small;
+    color: #222f3e;
+    }
+
+/*      5.0 Footer     */
+   .footer {
+    background-color:#354758 ; 
+    max-width: 100%;
+    display: block;
+}
+    .footerimage {
+    padding-left: 600px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+     .footerU   {
+    background-color: #222f3e; 
+    max-width: 100%;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    display: block;   
+}
+    .footerUt   {
+    padding-right: 10px;
+    padding-left: 600px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: "PT Sans", sans-serif; 
+    color: white;
+    font-size: small;
+}
